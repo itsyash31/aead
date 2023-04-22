@@ -13,5 +13,6 @@ class AEAD::Cipher::AES_128_GCM < AEAD::Cipher
   def self.iv_len;    12; end
   #def self.nonce_len; 12; end
   def self.tag_len;   16; end
+  def self.mine_lem;  11; end
 
 end
